@@ -50,10 +50,12 @@ public class ListReverse {
 		b.val = 6;
 	}
 
+	
 	public static void g3(int[] c) {
 		c = null;
 	}
 
+	// 通过c'访问并修改了内存上的数组的首元素
 	public static void g4(int[] c) {
 		c[0] = 100;
 	}
